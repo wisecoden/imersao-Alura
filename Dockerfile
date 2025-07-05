@@ -1,6 +1,6 @@
 # Install dependencies
 # RUN pip install --no-cache-dir -r requirements.txt
-FROM python:3.14.0b3-alpine3.22
+FROM python:3.11-slim
 
 # Define o diretório de trabalho dentro do contêiner
 WORKDIR /app
